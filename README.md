@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+AI Mock Interviewer Web
+This project is an AI-powered mock interview platform built using React. It includes features like login, signup, mock interview creation, AI-generated questions, voice-to-text conversion using Whisper, and real-time result generation based on user answers. The platform is live and accessible at https://aimockinterview.netlify.app/.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+Features
+User Authentication: Secure login and signup functionality.
+Mock Interview Creation: Users can create mock interviews tailored to specific job roles.
+AI-Generated Questions: Automatically generated interview questions based on user preferences and job roles.
+Voice-to-Text Conversion: Utilizes OpenAI's Whisper model for converting spoken answers to text.
+Answer Analysis and Results: Real-time evaluation of user answers to provide detailed results and feedback.
+Live Testing: Test the platform live at AI Mock Interviewer.
+Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### `npm test`
+npm run build
+Builds the app for production to the build folder.
+It optimizes the build for the best performance, making it ready for deployment.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Deployment
+This project is deployed using Netlify.
+Live at: https://aimockinterview.netlify.app/.
 
-### `npm run build`
+To deploy your own version:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Build the project using:
+bash
+Copy code
+npm run build
+Upload the build folder to your preferred hosting service (e.g., Netlify or Vercel).
+Learn More
+To dive deeper into the technologies used in this project:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React: React Documentation
+Whisper: OpenAI Whisper Documentation
+Project Workflow
+1. User Journey
+Signup/Login: Users create an account or log in to access features.
+Interview Setup: Users specify job roles or areas of interest to generate interview questions.
+Interview Process:
+AI Question Generation: Questions tailored to the job role are displayed.
+Voice Answer Recording: Users respond verbally, with Whisper converting speech to text.
+Results and Feedback: Performance is evaluated and presented to the user.
+2. Tech Stack
+Frontend: React, Tailwind CSS
+Backend: Node.js (API integration)
+AI Models: OpenAI for question generation, Whisper for voice-to-text
+Deployment: Netlify
+Live Demo
+Experience the app live at:
+https://aimockinterview.netlify.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributing
+If you'd like to contribute:
 
-### `npm run eject`
+Fork the repository.
+Create a new branch.
+Make your changes and commit them.
+Push the branch and create a pull request.
+License
+This project is licensed under the MIT License.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
