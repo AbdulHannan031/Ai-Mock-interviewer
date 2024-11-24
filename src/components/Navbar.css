@@ -1,0 +1,16 @@
+@media (max-width: 640px) {
+    .hello {
+      font-size: 10px; /* Adjust the font size */
+      padding: 2px 2px;
+      margin-left: 5px;
+       /* Adjust padding */
+    }
+  
+    .navbar-avatar {
+      height: 15px; /* Adjust avatar height */
+      width: 15px; /* Adjust avatar width */
+    }
+    .helloa{
+            padding-top:70px;
+    }
+  }

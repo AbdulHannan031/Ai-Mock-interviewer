@@ -1,0 +1,60 @@
+/* Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+  }
+  
+  .user-icon {
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .create-mock-container {
+    margin: 20px 0;
+  }
+  
+  .create-mock-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .create-mock-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mock-reports {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows responsiveness */
+  }
+  
+  .mock-report {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(30% - 20px); /* Responsive styling */
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 200px; /* Minimum width for smaller screens */
+  }
+ 
